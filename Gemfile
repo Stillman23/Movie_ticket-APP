@@ -41,6 +41,8 @@ gem 'rails_bootstrap_navbar'
 gem 'parallaxslider-rails'
 gem 'bootstrap', '~> 4.0.0'
 gem 'paperclip'
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
 
 
 group :development, :test do
