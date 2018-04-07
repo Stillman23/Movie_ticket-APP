@@ -1,11 +1,10 @@
 class StaticController < ApplicationController
-    def show
-        render params[:BuyMovietickets]
+    def BuyMovietickets
     end
-    def show
-        render params[:comingsoon]
+  
+    def comingsoon
     end
-    def show
-        render params[:contact]
+  
+    def contact
     end
-end
+  end
