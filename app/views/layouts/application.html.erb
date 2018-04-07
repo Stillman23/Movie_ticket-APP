@@ -13,281 +13,127 @@
     <%= csrf_meta_tags %>
   </head>
 
-  <body>
-<div class="wrapper">
+ 
 
 			<!-- Navigation -->
-			<div class="navbar" role="navigation">
-				<!-- Heading -->
-				<div class="heading">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="search">
-									<a href="#">
-										<i class="material-icons">search</i>
-									</a>
-								</div>
-								<div class="tel">
-									<a href="tel:03301234567">
-										<i class="material-icons">phone in talk</i> 0330  123 4567
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		<body>
+		<div id="drawer-right">
+			<div class="cross text-right">
+				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
+			</div>
+			<h2>Navigate</h2>
+			<nav>
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
+					</li>
+					<li>
+						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
+					</li>
+					<li>
+						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
+					</li>
+					<li>
+						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
+					</li>
+					<li>
+						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
+					</li>
+					<li>
+						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
+					</li>
+					<li>
+						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="social">
+				<h2>Stay Connected</h2>
+				<ul>
+					<li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+				</ul>
+			</div>
+		</div><!-- #drawer-right -->
 
-				<div class="container">
-					<div class="navbar-header">
-						<a href="index.html" class="logo" title="Craft beer landing page">
-							<img src="images/logo.svg" alt="Craft Beer HTML Template">
+		<div id="wrapper">
+			
+			<div id="header" class="content-block header-wrapper">
+				<div class="header-wrapper-inner">
+					<section class="top clearfix">
+						<div class="pull-left">
+							<h1><a class="logo" href="index.html">Flusk</a></h1>
+						</div>
+						<div class="pull-right">
+							<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
+						</div>
+					</section>
+					<section class="center">
+						<div class="slogan">
+							SLIM &amp; STYLISH
+						</div>
+						<div class="secondary-slogan">
+							The Flusk Theme By ThemeWagon.
+						</div>
+					</section>
+					<section class="bottom">
+						<a id="scrollToContent" href="#">
+							<img src="assets/images/arrow_down.png">
 						</a>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar top-bar"></span>
-							<span class="icon-bar middle-bar"></span>
-							<span class="icon-bar bottom-bar"></span>
-						</button>
-					</div>  
-					<div class="navbar-collapse collapse">
-						<ul id="menu-primary" class="nav navbar-nav">
-							<li class="active">
-									<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="whats-on.html">What's on</a>
-							</li>
-							<li>
-								<a href="shortcodes.html">Shortcodes</a>
-							</li>
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div>
+					</section>
 				</div>
-			</div>
-      <div id="hero" class="carousel slide carousel-fade" data-ride="carousel">
-				
-				<a href="#afterHeader" class="anchor">
-					<img src="images/scroll-arrow.svg" alt="Scroll down" class="scroll" />
-				</a>
+			</div><!-- header -->
 
-				<!-- Indicators -->
-				<div class="container">	
-					<ol class="carousel-indicators">
-						<li data-target="#hero" data-slide-to="0" class="active"></li>
-						<li data-target="#hero" data-slide-to="1"></li>
-						<li data-target="#hero" data-slide-to="2"></li>
-					</ol>
-				</div>
-				
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-
-					<div class="item active" style="background-image: url(http://via.placeholder.com/1140x665)">
-						<!-- Content -->
-						<div class="container">
-							<div class="row blurb scrollme animateme" data-when="exit" data-from="0" data-to="1" data-opacity="0" data-translatey="100">
-								<div class="col-md-9">
-									<span class="title">Action, Adventure, Fantasy</span>
-									<h1>End of the World: Part II</h1>
-									<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
-									<div class="buttons">
-										<span class="certificate">
-											PG
-										</span>
-										<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox btn btn-default">
-											<i class="material-icons">play_arrow</i>
-											<span>Play trailer</span>
-										</a>
-									</div>
-								</div>
+			
+			<div class="content-block" id="portfolio">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<h1>Our Latest Works</h1>
+						<p>Take a look at some of our recent products</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/rain_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/min_icons_thumb1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/flat_icons_thumb.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
 							</div>
 						</div>
-					</div>
-
-					<div class="item" style="background-image: url(http://via.placeholder.com/1140x665)">
-						<!-- Content -->
-						<div class="container">
-							<div class="row blurb scrollme animateme" data-when="exit" data-from="0" data-to="1" data-opacity="0" data-translatey="100">
-								<div class="col-md-9">
-									<span class="title">Action, Adventure, Fantasy</span>
-									<h1>End of the World: Part II</h1>
-									<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
-									<div class="buttons">
-										<span class="certificate">
-											15
-										</span>
-										<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox btn btn-default">
-											<i class="material-icons">play_arrow</i>
-											<span>Play trailer</span>
-										</a>
-									</div>
-								</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/wood-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/bike-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/six_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
 							</div>
 						</div>
-					</div>
-
-					<div class="item" style="background-image: url(http://via.placeholder.com/1140x665)">
-						<!-- Content -->
-						<div class="container">
-							<div class="row blurb scrollme animateme" data-when="exit" data-from="0" data-to="1" data-opacity="0" data-translatey="100">
-								<div class="col-md-9">
-									<span class="title">Action, Adventure, Fantasy</span>
-									<h1>End of the World: Part II</h1>
-									<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
-									<div class="buttons">
-										<span class="certificate">
-											PG
-										</span>
-										<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox btn btn-default">
-											<i class="material-icons">play_arrow</i>
-											<span>Play trailer</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
+					</section>
 				</div>
+			</div><!-- #portfolio -->
 
-			</div>
-
- 	<!-- Section -->
-			<div class="container section remove-top-padding">
-				<div class="row">
-					<div class="col-sm-12" id="afterHeader">
-						<h2>New in</h2>
-
-						<div class="slick-carousel" id="newIn">
-							<div class="movie-slide">
-								<div class="movie-poster">
-									<aside>
-										<div>
-											<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox play">
-												<i class="material-icons">play_arrow</i>
-											</a>
-											<a href="single-movie.html" class="read-more">read more</a>
-											<span class="date">Released: 7 Mar, 2017</span>
-										</div>
-									</aside>
-									<a href="#">
-										<img src="http://via.placeholder.com/265x340.jpg" alt="Movie title" />
-									</a>
-								</div>
-								<h4 class="no-underline">The last post</h4>
-								<div class="star-rating">
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-								</div>
-							</div>
-							<div class="movie-slide">
-								<div class="movie-poster">
-									<aside>
-										<div>
-											<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox play">
-												<i class="material-icons">play_arrow</i>
-											</a>
-											<a href="single-movie.html" class="read-more">read more</a>
-											<span class="date">Released: 7 Mar, 2017</span>
-										</div>
-									</aside>
-									<a href="#">
-										<img src="http://via.placeholder.com/265x340" alt="Movie title" />
-									</a>
-								</div>
-								<h4 class="no-underline">Dark and lonely</h4>
-								<div class="star-rating">
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons grey">star_rate</i>
-								</div>
-							</div>
-							<div class="movie-slide">
-								<div class="movie-poster">
-									<aside>
-										<div>
-											<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox play">
-												<i class="material-icons">play_arrow</i>
-											</a>
-											<a href="single-movie.html" class="read-more">read more</a>
-											<span class="date">Released: 7 Mar, 2017</span>
-										</div>
-									</aside>
-									<a href="#">
-										<img src="http://via.placeholder.com/265x340" alt="Movie title" />
-									</a>
-								</div>
-								<h4 class="no-underline">Venture</h4>
-								<div class="star-rating">
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-								</div>
-							</div>
-							<div class="movie-slide">
-								<div class="movie-poster">
-									<aside>
-										<div>
-											<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox play">
-												<i class="material-icons">play_arrow</i>
-											</a>
-											<a href="single-movie.html" class="read-more">read more</a>
-											<span class="date">Released: 7 Mar, 2017</span>
-										</div>
-									</aside>
-									<a href="#">
-										<img src="http://via.placeholder.com/265x340" alt="Movie title" />
-									</a>
-								</div>
-								<h4 class="no-underline">Hush</h4>
-								<div class="star-rating">
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons grey">star_rate</i>
-									<i class="material-icons grey">star_rate</i>
-								</div>
-							</div>
-							<div class="movie-slide">
-								<div class="movie-poster">
-									<aside>
-										<div>
-											<a href="https://youtu.be/ScMzIvxBSi4 data-vbtype="video" class="venobox play">
-												<i class="material-icons">play_arrow</i>
-											</a>
-											<a href="single-movie.html" class="read-more">read more</a>
-											<span class="date">Released: 7 Mar, 2017</span>
-										</div>
-									</aside>
-									<a href="#">
-										<img src="http://via.placeholder.com/265x340" alt="Movie title" />
-									</a>
-								</div>
-								<h4 class="no-underline">Venture</h4>
-								<div class="star-rating">
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-									<i class="material-icons">star_rate</i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
+			
   
 
 
