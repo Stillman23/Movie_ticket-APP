@@ -40,6 +40,7 @@ gem 'rails_bootstrap_navbar'
 
 gem 'parallaxslider-rails'
 gem 'bootstrap', '~> 4.0.0'
+gem 'paperclip'
 
 
 group :development, :test do
