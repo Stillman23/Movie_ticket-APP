@@ -48,46 +48,38 @@
 			
 			<div class="content-block" id="portfolio">
 				<div class="container">
-					<header class="block-heading cleafix">
-						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-						<h1>Our Latest Works</h1>
-						<p>Take a look at some of our recent products</p>
-					</header>
-					<section class="block-body">
+		
+
+					
+          <h1>Movie Showings</h1>
+						<section class="block-body">
 						<div class="row">
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/rain_1-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
+							<div class="col-md-4">
+								<div class="testimonial">
+									 <%= image_tag "BlackPanther.jpg"%>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Black Panther</strong><br/>
+									<span>Head of Ideas, Technext</span>
+								</div>
 							</div>
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/min_icons_thumb1-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<%= image_tag "WrinkleinTime.jpg"%>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Wrinkle In Time</strong><br/>
+									<span>CEO, Apple Inc</span>
+								</div>
 							</div>
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/flat_icons_thumb.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<%= image_tag "Blockers.jpg"%>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Blockers</strong><br/>
+									<span>Team Lead, Design Studio</span>
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/wood-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
-							</div>
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/bike-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
-							</div>
-							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/six_1-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
-								</a>
-							</div>
-						</div>
+					
 					</section>
 				</div>
 			</div><!-- #portfolio -->
@@ -115,7 +107,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "BlackPanther.jpg"%>
 										</a>
                    <%# Movie1 %>
 									</div>
@@ -145,13 +137,13 @@
 										</div>
 									</div>
 								</div>
+                <%# Movie2 %>
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+										<%= image_tag "WrinkleinTime.jpg"%>
 										</a>
 									</div>
-                  <%# Movie2 %>
 									<div class="col-md-10 col-sm-9">
 										<span class="title">Action, Adventure, Sci-Fi </span>
 										<h3 class="no-underline">Captain America: The First Avenger</h3>
@@ -178,13 +170,13 @@
 										</div>
 									</div>
 								</div>
+                <%# Movie3 %>
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Blockers.jpg"%>
 										</a>
 									</div>
-                  <%# Movie3 %>
 									<div class="col-md-10 col-sm-9">
 										<span class="title">Drama</span>
 										<h3 class="no-underline">Fences</h3>
@@ -211,13 +203,13 @@
 										</div>
 									</div>
 								</div>
+                <%# Movie4 %>
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="#">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "quietplace.jpg"%>
 										</a>
 									</div>
-                  <%# Movie4 %>
 									<div class="col-md-10 col-sm-9">
 										<span class="title">Drama</span>
 										<h3 class="no-underline">Daylight</h3>
@@ -249,7 +241,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Pacific.jpg"%>
 										</a>
 									</div>
                   <%# Movie5 %>
@@ -282,7 +274,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+										<%= image_tag "Sherlock.jpg"%>
 										</a>
 									</div>
                   <%# Movie6 %>
@@ -315,7 +307,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Truth.jpeg"%>
 										</a>
 									</div>
                   <%# Movie7 %>
@@ -348,7 +340,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Acrimony.jpg"%>
 										</a>
 									</div>
                   <%# Movie8 %>
@@ -383,7 +375,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Peter.jpg"%>
 										</a>
 									</div>
                   <%# Movie9 %>
@@ -416,7 +408,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<%= image_tag "Miracle.jpg"%>
 										</a>
 									</div>
                   <%# Movie10 %>
